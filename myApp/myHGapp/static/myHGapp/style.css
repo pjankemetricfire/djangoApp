@@ -1,0 +1,17 @@
+li a {
+  color: Black;
+  /*font-family: sans-serif;*/
+  font-size: 3vh;
+}
+
+h1 {
+  color: Black;
+  font-size: 5vh;
+
+}
+
+body {
+  background: linear-gradient(lavender,LightBlue); /* url("images/background.gif") no-repeat; */
+  font-family: sans-serif;
+  font-size: 3vh;
+}
