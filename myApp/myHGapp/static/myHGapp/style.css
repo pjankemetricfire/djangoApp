@@ -1,12 +1,39 @@
+
 li a {
-  color: Black;
-  /*font-family: sans-serif;*/
-  font-size: 3vh;
+  
+  align-content: center;
+  color: black;
+  text-decoration: none;
+  
+}
+
+li {
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 5% 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: max-content;
+  
+}
+
+ul {
+ 
+  padding: 6%;
+  list-style-type: none;
+  display: flex;
+  height: 47vh;
+  width: 40vw;
+  justify-content: space-around;
+  font-size: 6vh;
+  flex-flow: column nowrap;
 }
 
 h1 {
   color: Black;
   font-size: 5vh;
+  align-content: center;
 
 }
 
@@ -14,4 +41,12 @@ body {
   background: linear-gradient(lavender,LightBlue); /* url("images/background.gif") no-repeat; */
   font-family: sans-serif;
   font-size: 3vh;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+
 }
