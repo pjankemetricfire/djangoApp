@@ -18,7 +18,7 @@ li {
   
 }
 
-ul {
+ul, form {
  
   padding: 6%;
   list-style-type: none;
@@ -28,6 +28,19 @@ ul {
   justify-content: space-around;
   font-size: 6vh;
   flex-flow: column nowrap;
+  align-items: center;
+}
+
+#radioLI {
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  width: -webkit-fill-available;
+  
+}
+
+.radio {
+      flex-grow: .1;
+
 }
 
 h1 {
